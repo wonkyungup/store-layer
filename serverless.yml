@@ -1,0 +1,14 @@
+service: node-module
+
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+
+layers:
+  nodejs:
+    path: module
+    name: nodejs
+    compatibleRuntimes:
+      - nodejs14.x
