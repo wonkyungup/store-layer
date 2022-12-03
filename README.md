@@ -1,2 +1,9 @@
-# store-layer
-serverless store layer
+# store-api-layer
+
+```
+axios
+cheerio
+chrome-aws-lambda
+puppeteer-core
+zlib
+```
